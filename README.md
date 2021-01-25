@@ -1,3 +1,19 @@
+
+###TODO:
+
+* 多个过滤小窗口
+* 实时搜索过滤
+* vim快捷键操作
+* 多行匹配
+* 隐藏某些列（减少一行的长度）
+* 双击高亮鼠标所在位置单词
+* 自定义匹配行格式
+
+
+
+--------------------------------------------------------------
+forked from compilelife/loginsight
+
 ![Build](https://github.com/compilelife/loginsight/workflows/Build/badge.svg)
 
 loginsight致力于打造一款日志分析的利器
