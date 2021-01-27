@@ -11,7 +11,7 @@ RUN apt-get update \
     && apt-get install -y apt-transport-https \
     && apt-get update \
     && apt-get install -y --fix-missing libfcitx-qt5-dev fcitx-frontend-qt5 \
-    build-essential cmake qt5-default qttools5-dev-tools qt514-meta-full python3 python3-pip -y \
+    build-essential cmake qt5-default qttools5-dev-tools qt514-meta-full python3 python3-pip git \
     && echo "source /opt/qt514/bin/qt514-env.sh" >> ~/.bashrc \
     && cp /usr/lib/x86_64-linux-gnu/libFcitxQt5DBusAddons.so* /opt/qt514/lib/ \
     && cp /usr/lib/x86_64-linux-gnu/libFcitxQt5WidgetsAddons.so* /opt/qt514/lib \
