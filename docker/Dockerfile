@@ -1,6 +1,7 @@
 FROM ubuntu:20.04
 
-ADD sources.list /etc/apt/
+COPY sources.list /etc/apt/
+COPY msyh.ttf /usr/share/fonts/msyh.ttf
 
 ENV DEBIAN_FRONTEND noninteractive
 
